@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<script src="../js/kolorujtlo.js" type="text/javascript"></script>
+	<script src="../js/timedate.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/styles.css">
+    <title>Hodowla żółwia wodnego</title>
+	<link rel="stylesheet" href="../css/styles.css">
+    <style>
+        table {
+            width: 100%;
+            height: 100vh; 
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid #000;
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        .header {
+			background-image: url('../img/tlo.jpg');
+			background-size: cover;  
+			background-repeat: no-repeat;  
+			background-position: center center; 
+			background-attachment: fixed;  
+			margin: 0;
+			padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            height: 100px;
+        }
+
+        .sidebar {
+            background-color: #ffffff;
+            width: 10%;
+        }
+
+        .content {
+            background-color: #ffffff;
+            width: 90%;
+        }
+		.button-container {
+			position: fixed; 
+			bottom: 20px; 
+			left: 20px; 
+			z-index: 1000; 
+		}
+		button {
+			background-color: #00d3d6; 
+			border: none; 
+			color: white; 
+			padding: 12px 24px; 
+			text-align: center; 
+			text-decoration: none; 
+			display: inline-block; 
+			font-size: 16px; 
+			margin: 5px 0; 
+			cursor: pointer; 
+			border-radius: 8px; 
+			transition: background-color 0.3s ease; 
+		}
+		button:hover {
+			background-color: #039799;}
+    </style>
+	<style>
+        .image {
+            float: right; 
+            margin: 23px;
+        }
+    </style>
+	</style>
+	<div id="zegar">
+    <div id="data"></div>
+    <div id="zegarek"></div></div>
+</head>
+<body>
+    <table>
+
+        <tr>
+            <td colspan="2" class="header">
+                <h1>HODOWLA ŻÓŁWIA WODNEGO</h1>
+                <p>Wszystko, co musisz wiedzieć o opiece nad żółwiem wodnym</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="sidebar">
+                <ul>
+                    <li><a href="../stronaglowna.html">Strona Główna</a></li>
+                    <li><a href="ohodowli.html">O Hodowli</a></li>
+                    <li><a href="gatunki.html">Gatunki Żółwi</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </td>
+            <td id="contentCell" class="content">
+                <p><u><b>Hodowla żółwi</b></u> wodnych to popularne hobby, które może dostarczyć wiele radości, 
+				ale wymaga odpowiedniego przygotowania. Żółwie wodne to zwierzęta, które 
+				potrzebują specyficznych warunków, aby zdrowo się rozwijać i cieszyć długim życiem. 
+				Jeśli chcesz zapewnić swojemu pupilowi komfort i dobre zdrowie, 
+				musisz zadbać o kilka kluczowych aspektów.</p>
+				<h2> O co należy zadbać przy hodowli żółwia wodnego:</h2>
+				<ol>
+					<img src="../img/img1.jpg"  class="image" width="250" height="175">
+					<p><li><b>Odpowiednie akwarium</b>
+					<ul>
+						<li><b>Rozmiar:</b>	Dla małych żółwi wodnych akwarium o pojemności 
+						co najmniej 100-150 litrów jest odpowiednie, ale im większe, 
+						tym lepiej. Żółwie potrzebują przestrzeni do pływania.</li></li>
+						<li><b>Wyspa do wygrzewania:</b> Żółwie wodne potrzebują miejsca, 
+						gdzie mogą wychodzić z wody i wygrzewać się pod lampą.
+						Może to być platforma lub skała, która wystaje nad powierzchnię wody.</li> 
+						<li><b>Wysokość wody:</b> Woda powinna być na tyle głęboka, aby żółw mógł 
+						swobodnie pływać, ale nie za głęboka, żeby mógł się 
+						bez problemu wynurzać na powierzchnię.</li></ul></p><br><br><br><br><br>
+					<img src="../img/img3.jpg"  class="image" width="250" height="175">
+					<p><li><b>Oświetlenie i temperatura</b>
+					<ul>
+						<li><b>Lampa UVB:</b> Żółwie wodne potrzebują światła UVB, aby syntetyzować witaminę D3, 
+						która jest niezbędna do przyswajania wapnia. Lampę UVB należy umieścić nad wyspą wygrzewania.</li>
+						<li><b>Lampa grzewcza:</b> Na wyspie wygrzewania powinna być także lampa grzewcza, która utrzyma temperaturę od 30 do 35°C.</li>
+						<li><b>Temperatura wody:</b> Optymalna temperatura wody powinna wynosić około 24-28°C. 
+						W chłodniejszych klimatach warto użyć grzałki do akwarium z termostatem.</li></ul></p><br><br><br><br>
+					<br>
+					<img src="../img/img4.jpg"  class="image" width="250" height="175">
+					<p><li><b>Filtracja i jakość wody</b>
+					<ul>
+						<li><b>Filtr:</b> Żółwie wodne produkują sporo odchodów, więc wydajny filtr akwariowy jest kluczowy 
+						do utrzymania czystej wody. Filtr zewnętrzny o dużej mocy będzie najlepszy.</li>
+						<li><b>Regularne wymiany wody:</b> Nawet przy dobrym filtrze, wymiany części wody są niezbędne, 
+						aby zapobiegać gromadzeniu się toksyn. Zaleca się wymianę 20-30% wody co tydzień.</li>
+						<li><b>Testowanie wody:</b> Regularne testowanie parametrów wody 
+						(np. pH, twardość, poziom amoniaku) może pomóc w utrzymaniu zdrowego środowiska.</li></ul></p><br><br><br><br>
+					<br>
+					<img src="../img/img5.jpg"  class="image" width="250" height="175">
+					<p><li><b>Dieta</b>
+					<ul>
+						<li><b>Różnorodność:</b> Żółwie wodne są wszystkożerne, więc ich dieta powinna być zróżnicowana. 
+						Możesz karmić je specjalnymi granulkami dla żółwi, rybami, owocami morza, owadami, a także roślinami wodnymi.</li>
+						<li><b>Pokarmy roślinne:</b> Dorosłe żółwie potrzebują większej ilości pokarmów roślinnych, takich jak liście sałaty, mlecze czy glony.</li>
+						<li><b>Suplementacja:</b> Dodawanie suplementów wapnia (np. kostka wapniowa) jest ważne dla zdrowego rozwoju skorupy.</li></ul></p><br><br><br><br><br>
+					<br>
+					<img src="../img/img6.jpg"  class="image" width="250" height="175">
+					<p><li><b>Higiena i zdrowie</b>
+					<ul>
+						<li><b>Czystość akwarium:</b> Regularnie usuwaj resztki jedzenia i odchody, aby zapobiec rozwijaniu się bakterii.</li>
+						<li><b>Oględziny zdrowotne:</b> Obserwuj swojego żółwia pod kątem zmian w zachowaniu, apetytu oraz wyglądzie jego skorupy i oczu. 
+						Wszelkie oznaki infekcji, puchnięcia lub zmiany koloru wymagają wizyty u weterynarza.</li></ul></p><br><br><br><br><br><br><br>
+					<img src="../img/img7.jpg"  class="image" width="250" height="175">
+					<p><li><b>Interakcja i bezpieczeństwo</b>
+					<ul>
+						<li><b>Unikaj częstego dotykania:</b> Żółwie wodne mogą być zestresowane, jeśli są często dotykane. 
+						Staraj się unikać częstego wyjmowania ich z akwarium, chyba że jest to konieczne.</li>
+						<li><b>Zabezpieczenie akwarium:</b> Upewnij się, że akwarium jest dobrze przykryte, aby żółw nie mógł uciec.</li></ul></p><br><br><br><br><br><br><br>
+					<img src="../img/img8.jpg"  class="image" width="250" height="175">
+					<p><li><b>Temperatura otoczenia i wilgotność</b>
+					<ul>
+						<li><b>Wilgotność:</b> Choć żółwie wodne spędzają większość czasu w wodzie, ważne jest utrzymanie 
+						odpowiedniej wilgotności w otoczeniu akwarium.</li>
+						<li><b>Odpowiednia cyrkulacja powietrza:</b> Zapewnij dobrą wentylację w pobliżu akwarium, 
+						aby uniknąć kondensacji i rozwijania się pleśni.</li></ul></p><br><br><br><br><br><br><br><br>
+					<img src="../img/img9.jpg"  class="image" width="250" height="175">
+					<p><li><b>Zdrowie i wizyty u weterynarza</b>
+					<ul>
+						<li>Regularnie kontroluj stan zdrowia swojego żółwia i w razie jakichkolwiek 
+						problemów skontaktuj się z weterynarzem specjalizującym się w gadach.</li></ul></p>
+				</ol>
+            </td>
+        </tr>
+    </table>
+	<div class="button-container">
+		<button onclick="changeBackground('contentCell', '#ffffff')">biały</button>
+		<button onclick="changeBackground('contentCell', '#faec8e')">żółty</button>
+		<button onclick="changeBackground('contentCell', '#fa5757')">czerwony</button>
+		<button onclick="changeBackground('contentCell', '#c7c7c7')">szary</button>
+		<button onclick="changeBackground('contentCell', '#93d9fa')">niebieski</button>
+		<button onclick="changeBackground('contentCell', '#6dfcb0')">zielony</button>
+		<button onclick="changeBackground('contentCell', '#f58efa')">różowy</button></div>
+
+</body>
+</html>
+
