@@ -1,12 +1,9 @@
-/* Ogólny styl strony */
 body {
     font-family: Helvetica, Sans-Serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
-
-/* Zegar */
 #zegar {
     position: absolute;
     top: 25px;
@@ -25,7 +22,6 @@ body {
     font-size: 18px;
 }
 
-/* Nagłówek */
 .header {
     background-image: url('../img/tlo.jpg');
     background-size: cover;
@@ -56,7 +52,6 @@ body {
     font-size: 1.5em;
 }
 
-/* Menu nawigacyjne */
 .navbar {
     background-color: #333;
     display: flex;
@@ -81,7 +76,6 @@ body {
     color: black;
 }
 
-/* Główna treść */
 .content {
     background-color: #ffffff;
     width: 100%;
@@ -107,8 +101,6 @@ h3 {
     font-size: 1.4rem; /* 1.6 razy większe od rozmiaru podstawowego (20px) = 32px */
     margin-top: 10px;
 }
-
-/* Kontener przycisków */
 .button-container {
     position: fixed;
     bottom: 20px;
@@ -118,8 +110,6 @@ h3 {
     flex-direction: column; /* Ustawienie przycisków w pionie */
     align-items: flex-end; /* Wyrównanie przycisków do prawej */
 }
-
-/* Styl przycisków */
 button {
     background-color: #333;
     border: none;
@@ -132,14 +122,10 @@ button {
     border-radius: 8px;
     transition: background-color 0.3s ease;
 }
-
-/* Efekt na hover */
 button:hover {
     background-color: #039799;
 }
 
-
-/* Galeria obrazów */
 .image-container {
     display: inline-block;
     margin: 10px;
@@ -171,7 +157,6 @@ button:hover {
     margin: 0 auto;
 }
 
-/* Tabela */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -182,7 +167,6 @@ td {
     padding: 10px;
 }
 
-/* Nawigacja w formie listy */
 nav ul {
     list-style-type: none;
     padding: 0;
