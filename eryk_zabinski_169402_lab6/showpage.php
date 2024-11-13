@@ -10,10 +10,9 @@ function PokazPodstrone($id)
         die('Błąd zapytania SQL: ' . mysqli_error($link));
     }
     if ($row = mysqli_fetch_assoc($result)) {
-        // Zwrócenie tylko zawartości strony
         $web = $row['page_content'];
     } else {
-        $web = '[nie_znaleziono_strony]'; // Jeśli nie znaleziono strony
+        $web = '[nie_znaleziono_strony]';
     }
     return $web;
 }
