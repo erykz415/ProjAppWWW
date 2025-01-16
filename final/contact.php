@@ -84,8 +84,7 @@ function PrzypomnijHaslo()
             return;
         }
 
-        // Przykładowe hasło, w prawdziwej aplikacji powinno być dynamicznie generowane
-        $haslo = 'twoje_haslo123';
+        $haslo = 'haslo123';
         $temat = 'Przypomnienie hasła';
         $tresc = "Twoje hasło do panelu admina: $haslo";
 
@@ -123,10 +122,8 @@ function PrzypomnijHaslo()
     }
 }
 
-// Zaimportowanie pliku CSS
 echo '<link rel="stylesheet" href="css/styles.css">';
 
-// Przycisk "Formularz kontaktowy"
 echo '
     <button id="show-contact-form-button" type="button" class="custom-button-long-g" onclick="pokazFormularz()">Formularz kontaktowy</button>
 ';
